@@ -14,7 +14,7 @@ export const CVSection: React.FC = () => {
                     _hover={{ bgColor: "linkedin.500", color: "white" }}
                     width="100%"
                 >
-                    Curiculum Vitae
+                    Resume (fr)
                 </Button>
 
                 <Button
@@ -27,7 +27,7 @@ export const CVSection: React.FC = () => {
                     _hover={{ bgColor: "linkedin.500", color: "white" }}
                     width="100%"
                 >
-                    Resume
+                    Resume (en)
                 </Button>
             </HStack>
         </VStack>

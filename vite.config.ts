@@ -8,5 +8,5 @@ export default defineConfig({
         port: 3000,
     },
     plugins: [react()],
-    base: "/Portfolio_N7/",
+    base: "/PortFolio_N7/",
 });

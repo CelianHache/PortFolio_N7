@@ -6,7 +6,7 @@ export const CVSection: React.FC = () => {
             <HStack justifyContent="center" spacing={4}>
                 <Button
                     as="a"
-                    href="/cv/CV_fr.pdf"
+                    href="cv/CV_fr.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     bgColor={"linkedin.700"}
@@ -19,7 +19,7 @@ export const CVSection: React.FC = () => {
 
                 <Button
                     as="a"
-                    href="/cv/CV_en.pdf"
+                    href="cv/CV_en.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     bgColor={"linkedin.700"}

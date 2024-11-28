@@ -24,7 +24,7 @@ export const Welcome: React.FC<WelcomeProps> = (props) => {
                     width: "6px",
                 },
                 "&::-webkit-scrollbar-thumb": {
-                    background: "rgba(255, 255, 255, 0.1)",
+                    background: "rgba(255, 255, 255, 0.3)",
                     borderRadius: "24px",
                 },
             }}
@@ -43,7 +43,7 @@ export const Welcome: React.FC<WelcomeProps> = (props) => {
             >
                 <Heading
                     color={"teal.300"}
-                    font-size={"clamp(1rem, 1dvw, 1.5rem)"}
+                    fontSize={"clamp(1rem, 1dvw, 1.5rem)"}
                 >
                     {"Célian Hache"}
                 </Heading>
@@ -73,7 +73,7 @@ export const Welcome: React.FC<WelcomeProps> = (props) => {
             >
                 <Heading
                     color={"teal.300"}
-                    font-size={"clamp(1rem, 1dvw, 1.5rem)"}
+                    fontSize={"clamp(1rem, 1dvw, 1.5rem)"}
                     p={5}
                 >
                     {props.title}
